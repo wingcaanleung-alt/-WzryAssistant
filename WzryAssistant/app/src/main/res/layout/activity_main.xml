@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- 启动悬浮窗按钮 -->
+    <Button
+        android:id="@+id/button_start_floating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_floating"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- 开始屏幕捕捉按钮 -->
+    <Button
+        android:id="@+id/button_start_capture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_capture"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- 语音问答输入框 -->
+    <EditText
+        android:id="@+id/edit_query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/prompt_question"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- 语音问答按钮 -->
+    <Button
+        android:id="@+id/button_ask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ask_question"/>
+</LinearLayout>
