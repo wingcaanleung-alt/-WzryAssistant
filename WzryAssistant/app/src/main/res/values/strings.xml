@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WzryAssistant</string>
+    <string name="start_floating">开始悬浮窗</string>
+    <string name="start_capture">开始屏幕捕捉</string>
+    <string name="ask_question">语音问答</string>
+    <string name="prompt_question">请输入问题</string>
+</resources>
