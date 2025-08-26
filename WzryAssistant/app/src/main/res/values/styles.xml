@@ -1,0 +1,8 @@
+<resources>
+    <!-- 应用主题 -->
+    <style name="Theme.WzryAssistant" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:colorPrimary">@color/purple_500</item>
+        <item name="android:colorPrimaryDark">@color/purple_700</item>
+        <item name="android:colorAccent">@color/teal_200</item>
+    </style>
+</resources>
